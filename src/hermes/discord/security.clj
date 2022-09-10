@@ -1,4 +1,4 @@
-(ns super-dice-roll.discord.security
+(ns hermes.discord.security
   (:require [clojure.string :as str])
   (:import (java.security SecureRandom)
            (org.bouncycastle.crypto.generators Ed25519KeyPairGenerator)

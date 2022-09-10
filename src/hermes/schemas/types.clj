@@ -1,4 +1,4 @@
-(ns super-dice-roll.schemas.types
+(ns hermes.schemas.types
   (:require [cheshire.core :as json]
             [clojure.string :as str]
             [clojure.test.check.generators :as generators]

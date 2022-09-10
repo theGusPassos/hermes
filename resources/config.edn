@@ -1,10 +1,3 @@
 {:webserver/port #long #or [#env PORT 3001]
- :discord {:app-public-key #or [#env DISCORD_PUBLIC_KEY ""]}
- :telegram {:bot-token #or [#env TELEGRAM_BOT_TOKEN ""]}
- :database {:dbtype "postgres"
-            :dbname #or [#env DB-NAME "postgres"]
-            :username #or [#env DB-USER "postgres"]
-            :password #or [#env DB-PASS "postgres"]
-            :host #or [#env DB-HOST "localhost"]
-            :port #or [#env DB-PORT 5432]}}
+ :discord {:app-public-key #or [#env DISCORD_PUBLIC_KEY ""]}}
 

@@ -1,4 +1,4 @@
-(ns super-dice-roll.discord.schemas.http-in
+(ns hermes.discord.schemas.http-in
   (:require [schema.core :as s]))
 
 (def InteractionRequestTypeDefinition

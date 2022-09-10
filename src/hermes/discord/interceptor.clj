@@ -1,6 +1,6 @@
-(ns super-dice-roll.discord.interceptor
+(ns hermes.discord.interceptor
   (:require [parenthesin.logs :as logs]
-            [super-dice-roll.discord.security :as discord.security]))
+            [hermes.discord.security :as discord.security]))
 
 (defn try-verify-request
   [public-key signature timestamp body]
